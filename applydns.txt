@@ -1,0 +1,312 @@
+config system external-resource
+    edit "Pirate"
+        set type domain
+        set category 192
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/piratasss_block_list.txt"
+    next
+    edit "Crypto"
+        set type domain
+        set category 193
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/cryptos_block_list.txt"
+    next
+    edit "Drugs"
+        set type domain
+        set category 194
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/drugs_block_list.txt"
+    next
+    edit "Social"
+        set type domain
+        set category 195
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/facebook_block_list.txt"
+      next
+    edit "Fraud"
+        set type domain
+        set category 196
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/fraud_block_list.txt"
+    next
+    edit "Gamble"
+        set type domain
+        set category 197
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/gamblegamble_block_list.txt"
+    next
+    edit "Malware"
+        set type domain
+        set category 198
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/malware_block_list.txt"
+    next
+    edit "Phishing"
+        set type domain
+        set category 199
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/phishphish_block_list.txt"
+          next
+    edit "Scam"
+        set type domain
+        set category 200
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/scams_block_list.txt"
+    next
+    edit "TikTok"
+        set type domain
+        set category 201
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/tiktok_block_list.txt"
+    next
+    edit "Torrent"
+        set type domain
+        set category 202
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/torrentzao_block_list.txt"
+    next
+    edit "Twitter"
+        set type domain
+        set category 203
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/twitter_block_list.txt"
+    next
+    edit "Whatsapp"
+        set type domain
+        set category 204
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/whatsapp_block_list.txt"
+    next
+    edit "Youtube"
+        set type domain
+        set category 205
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/youtube_block_list.txt"
+    next
+    edit "Porn"
+        set type domain
+        set category 206
+        set resource "https://raw.githubusercontent.com/n0r14n/lists/refs/heads/main/Porn.txt"
+    next
+end
+
+
+
+config dnsfilter domain-filter
+edit 1
+set name "default"
+set comment "Default dns filtering."
+config entries
+edit 1
+set domain "instag"
+set type regex
+next
+edit 2
+set domain "instagram"
+set type regex
+next
+edit 3
+set domain "snapchat"
+set type regex
+next
+edit 4
+set domain "houseparty"
+set type regex
+next
+edit 5
+set domain "yolo"
+set type regex
+next
+edit 6
+set domain "tiktok"
+set type regex
+next
+edit 7
+set domain "discord"
+set type regex
+next
+edit 8
+set domain "twitch"
+set type regex
+next
+edit 9
+set domain "torrent"
+set type regex
+next
+edit 10
+set domain "stake"
+set type regex
+next
+edit 11
+set domain "bet"
+set type regex
+next
+edit 12
+set domain "anime"
+set type regex
+next
+edit 13
+set domain "porn"
+set type regex
+next
+edit 14
+set domain "hent"
+set type regex
+next
+edit 15
+set domain "youtube"
+set type regex
+next
+edit 16
+set domain "game"
+set type regex
+next
+edit 17
+set domain "reddit"
+set type regex
+next
+edit 18
+set domain "vpn"
+set type regex
+next
+edit 19
+set domain "steam"
+set type regex
+next
+edit 20
+set domain "blizzard"
+set type regex
+next
+edit 21
+set domain "badoo"
+set type regex
+next
+edit 22
+set domain "tinder"
+set type regex
+next
+edit 23
+set domain "crypt"
+set type regex
+next
+edit 24
+set domain "disney"
+set type regex
+next
+edit 25
+set domain "netflix"
+set type regex
+next
+edit 26
+set domain "vimeo"
+set type regex
+next
+edit 27
+set domain "video"
+set type regex
+next
+edit 28
+set domain "xbox"
+set type regex
+next
+edit 29
+set domain "zoom"
+set type regex
+next
+edit 30
+set domain "tumblr"
+set type regex
+next
+edit 31
+set domain "skype"
+set type regex
+next
+edit 32
+set domain "pinterest"
+set type regex
+next
+edit 33
+set domain "league"
+set type regex
+next
+edit 34
+set domain "hbo"
+set type regex
+next
+edit 35
+set domain "hulu"
+set type regex
+next
+edit 36
+set domain "imgur"
+set type regex
+next
+edit 37
+set domain "messenger"
+set type regex
+next
+edit 38
+set domain "primevideo"
+set type regex
+next
+edit 39
+set domain "spotify"
+set type regex
+next
+edit 40
+set domain "xbox"
+set type regex
+next
+edit 41
+set domain "9gag"
+set type regex
+next
+edit 42
+set domain "dailymotion"
+set type regex
+next
+edit 43
+set domain "xvideos"
+set type regex
+next
+edit 44
+set domain "dropb"
+set type regex
+set action allow
+next
+edit 45
+set domain "spoti"
+set type regex
+next
+edit 46
+set domain "netfl"
+set type regex
+next
+edit 47
+set domain "amazo"
+set type regex
+next
+edit 48
+set domain "prime"
+set type regex
+next
+edit 49
+set domain "paramoun"
+set type regex
+next
+edit 50
+set domain "watch"
+set type regex
+next
+edit 51
+set domain "movies"
+set type regex
+next
+edit 52
+set domain "jogo"
+set type regex
+next
+edit 53
+set domain "game"
+set type regex
+next
+edit 54
+set domain "online"
+set type regex
+edit 55
+set domain "priva"
+set type regex
+next
+edit 56
+set domain "only"
+set type regex
+next
+end
+next
+end
